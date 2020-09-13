@@ -1,0 +1,9 @@
+language: clojure
+lein: 2.6.1
+dist: xenial
+deploy:
+  provider: pages
+  skip_clean: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: ./public
