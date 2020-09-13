@@ -26,4 +26,7 @@ pom.xml.asc
 *.code-workspace
 .calva/
 
+### Project temporary files ###
+public/
+
 # End of https://www.toptal.com/developers/gitignore/api/clojure,code
