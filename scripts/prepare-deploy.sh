@@ -29,5 +29,6 @@
 
 printf "Initialize prepare deploy script\n"
 lein run
+cp -v CNAME public/
 
 # End of script
