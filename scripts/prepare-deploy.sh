@@ -29,6 +29,7 @@
 
 printf "Initialize prepare deploy script\n"
 lein run
-cp -v CNAME public/
-
+if [[ -f CNAME ]]; then
+ cp -v CNAME public/
+fi;
 # End of script
