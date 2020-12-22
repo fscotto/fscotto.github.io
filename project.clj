@@ -11,6 +11,7 @@
                  [cryogen-flexmark "0.1.2"]
                  [cryogen-core "0.3.1"]]
   :plugins [[lein-ring "0.12.5"]]
+  :resources ["img" "CNAME"]
   :main cryogen.core
   :ring {:init cryogen.server/init
          :handler cryogen.server/handler})
