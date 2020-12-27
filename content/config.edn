@@ -1,7 +1,7 @@
 {:site-title                   "Fabio Scotto di Santolo"
  :author                       "Fabio Scotto di Santolo"
  :description                  "This is my personal website"
- :site-url                     "https://fscotto.me/"
+ :site-url                     "https://fscotto.it/"
  :post-root                    "posts"
  :page-root                    "pages"
  :post-root-uri                "posts-output"

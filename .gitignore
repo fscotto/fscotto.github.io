@@ -25,6 +25,8 @@ pom.xml.asc
 !.vscode/extensions.json
 *.code-workspace
 .calva/
+.clj-kondo/
+.lsp/
 
 ### Project temporary files ###
 public/
