@@ -1,0 +1,227 @@
+h1 {
+    font-size: 6em;
+  }
+  h2 {
+    font-size: 1.8em;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  h2::after {
+    background-color: var(--background-color);
+    bottom: 0;
+    content: ' ';
+    display: block;
+    height: 50%;
+    left: 15px;
+    opacity: 1;
+    position: absolute;
+    width: calc(100% + 15px);
+    z-index: -1;
+  }
+  h3 {
+    font-size: 1.15em;
+  }
+  section {
+    margin-top: 8em;
+  }
+  section:first-of-type {
+    margin-top: 0;
+  }
+  
+  /* intro */
+  #intro {
+    /* grid container */
+    position: relative;
+    display: grid;
+    z-index: 10;
+    pointer-events: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 20% 20% 10% 45% 5%;
+    grid-template-rows: 145px 260px;
+    grid-template-areas: "... ... name name name"
+                         "... ... ... bio bio";
+  }
+  #intro .name {
+    grid-area: name;
+  }
+  #intro .portrait {
+    display: block;
+    background-image: url(../img/headshot.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    grid-column: 1 / 3;
+    width: 375px;
+    height: 375px;
+  }
+  #intro .bio {
+    grid-area: bio;
+    margin: 0;
+    justify-self: start;
+  }
+  
+  /* appearances */
+  .appearance-list {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: none;
+    z-index: 10;
+  }
+  
+  .appearance-list li {
+    list-style: none;
+    border: 1px solid var(--text-color);
+    padding: 10px 14px;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+  }
+  
+  /* projects */
+  .project-list {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: none;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    column-gap: 2em;
+    z-index: 10;
+  }
+  .project-list li {
+    list-style: none;
+    border: 1px solid var(--text-color);
+    position: relative;
+    padding: 10px 14px;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+    margin: 0 0 2em 0;
+  }
+  
+  
+  #bottom {
+    position: relative;
+    display: grid;
+    pointer-events: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 45% 10% 45%;
+    grid-template-areas: "work ... other";
+  }
+  .work {
+    grid-area: work;
+    display: block;
+  }
+  .work ul {
+    margin: 0;
+    padding: 0;
+  }
+  .work ul>li {
+    list-style: none;
+    border: 1px solid var(--text-color);
+    position: relative;
+    padding: 10px 14px;
+    margin: 0 0 2em 0;
+  }
+  .other {
+    grid-area: other;
+    display: block;
+  }
+  .other h2 {
+      margin-top: 2em;
+  }
+  .other h2:first-of-type {
+    margin-top: 0;
+  }
+  .other ul {
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 1800px) {
+    #intro .portrait {
+      width: 410px;
+      height: 410px;
+    }
+  }
+  @media screen and (max-width: 1630px) {
+    section {
+      margin-top: 4em;
+    }
+    #intro .portrait {
+      width: 385px;
+      height: 385px;
+    }
+  }
+  @media screen  and (max-width: 1200px) {
+    h1 {
+      font-size: 5em;
+    }
+    #intro {
+      grid-template-rows: 110px;
+    }
+    #intro .portrait {
+      width: 320px;
+      height: 320px;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    section {
+      margin-top: 3em;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #intro {
+      grid-template-columns: 20% 15% 15% 45% 5%;
+      grid-template-rows: 70px 30px;
+      grid-template-areas: "name name name name name"
+                           "... ... ... ... ..."
+                           "... ... ... bio bio";
+    }
+    #intro .portrait {
+      grid-row: 2 / 4;
+      width: 285px;
+      height: 285px;
+    }
+    #bottom {
+      grid-template-columns: 48% 5% 47%;
+      grid-template-areas: "work ... other";
+    }
+  }
+  
+  @media screen and (max-width: 580px) {
+    section {
+      margin: 1em 0 0 0;
+    }
+    h1 {
+      font-size: 3.5em;
+    }
+    h2 {
+      font-size: 1.8em;
+    }
+    #intro {
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+      grid-template-areas: "name" "bio";
+    }
+    #intro .portrait {
+      display: none;
+    }
+    .projects ul {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+    }
+    .projects ul>li, .work ul>li {
+      margin: 0 0 1em 0;
+    }
+    #bottom {
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+      grid-template-areas: "work" "other";
+    }
+  }

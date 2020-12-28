@@ -1,0 +1,119 @@
+html {
+    min-height: 100%
+  }
+  body {
+    --text-color: #34754a;
+    --selection-color: #536b48;
+    --background-color: #d1fcd7;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: -0.2px;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #522959;
+    color: var(--text-color);
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, var(--background-color) 0%, var(--text-color) 90%);
+    padding: 32px;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    transition: all .25s;
+  }
+  ::selection { /* WebKit/Blink Browsers */
+    background: #69516d;
+    background: var(--selection-color);
+    color: #fff;
+    opacity: 1;
+  }
+  ::-moz-selection {
+    background: #69516d; /* Gecko Browsers */
+    background: var(--selection-color);
+    color: #fff;
+    opacity: 1;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    display: table;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    text-align: left;
+    z-index: 10;
+  }
+  a,a:active {
+    text-decoration: underline;
+    color: var(--text-color);
+  }
+  a:hover,a:focus {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    cursor: pointer;
+  }
+  blockquote {
+    margin: 16px 30px 16px 20px;
+    padding-left: 15px;
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, var(--background-color) 0%, var(--text-color) 70%) 1;
+  }
+  .container {
+    background-color: white;
+    padding: 120px 0;
+  }
+  main {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: 940px
+  }
+  
+  #footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+  }
+  #footer p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+  @media screen and (max-width: 1630px) {
+    main {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 1450px){
+    main {
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    main {
+      width: 80%;
+    }
+    #footer {
+      margin-top: 2em;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    main {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 40px 0;
+    }
+  }
+  
+  @media screen and (max-width: 580px) {
+    body {
+      padding: 16px;
+    }
+  }
