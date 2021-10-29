@@ -2,18 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
 <loc>
-https://www.fscotto.it/tags.html
+https://www.fscotto.it/index.html
 </loc>
 <lastmod>
-2021-05-23
+2021-10-29
 </lastmod>
 </url>
 <url>
 <loc>
-https://www.fscotto.it/index.html
+https://www.fscotto.it/tags.html
 </loc>
 <lastmod>
-2021-05-23
+2021-10-29
 </lastmod>
 </url>
 <url>
@@ -21,7 +21,7 @@ https://www.fscotto.it/index.html
 https://www.fscotto.it/archives.html
 </loc>
 <lastmod>
-2021-05-23
+2021-10-29
 </lastmod>
 </url>
 <url>
@@ -29,7 +29,7 @@ https://www.fscotto.it/archives.html
 https://www.fscotto.it/404.html
 </loc>
 <lastmod>
-2021-05-23
+2021-10-29
 </lastmod>
 </url>
 </urlset>
