@@ -7,10 +7,10 @@
 <br/>
 
 Mi chiamo Fabio sono un software developer che lavora nel mondo della consulenza, attualmente ricopro il ruolo di
-programmatore principalmente con Java presso [Meware Srl](http://www.meware.it/).   
+programmatore backend, principalmente con Java presso [Meware Srl](http://www.meware.it/).
 Ho iniziato il mio percorso studiando la programmazione in C e poi ampliando i miei orizzonti verso la programmazione
-orientata agli oggetti con Java.   
-Negli ultimi anni mi sono appassionato alla programmazione funzionale studiata inizialmente con Scala, Erlang ed Elixir e soprattutto Clojure.    
+orientata agli oggetti con Java.
+Negli ultimi anni mi sono appassionato alla programmazione funzionale studiata inizialmente con Scala, Erlang ed Elixir e ora con Clojure.
 
 <br/>
 
