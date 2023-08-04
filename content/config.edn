@@ -1,7 +1,7 @@
 {:site-title                   "Fabio Scotto di Santolo"
  :author                       "Fabio Scotto di Santolo"
  :description                  "Questo è il mio sito personale."
- :site-url                     "https://www.fscotto.it/"
+ :site-url                     "https://www.fscotto.co/"
  :post-root                    "posts"
  :page-root                    "pages"
  :post-root-uri                "posts-output"
@@ -36,7 +36,4 @@
                                 :github-url  "http://www.github.com/fscotto"
                                 :linkedin-url "http://www.linkedin.com/in/fabio-scotto-di-santolo"
                                 :email "fabio.scottodisantolo@gmail.com"
-                                :bio "Salve, mi chiamo Fabio sono un programmatore Java,
-                                      ma amo molto la programmazione funzionale scoperta inizialmente con Scala
-                                      e riscoperta ora con Clojure.
-                                      Mi piacciono anche Go, Python ed Elixir."}}
+                                :bio "Benvenuti sul sito web di Fabio Scotto di Santolo"}}

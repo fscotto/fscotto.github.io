@@ -4,15 +4,12 @@
  :home? true
  :navbar? true}
 
-<br/>
-
-Mi chiamo Fabio sono un software developer che lavora nel mondo della consulenza, attualmente ricopro il ruolo di
+Mi chiamo Fabio sono uno sviluppatore software che lavora nel mondo della consulenza, attualmente ricopro il ruolo di
 programmatore backend, principalmente con Java presso [Tech Gap Italia Srl](https://www.techgap.it/).
-Ho iniziato il mio percorso studiando la programmazione in C e poi ampliando i miei orizzonti verso la programmazione
-orientata agli oggetti con Java.
-Negli ultimi anni mi sono appassionato alla programmazione funzionale studiata inizialmente con Scala, Erlang ed Elixir e ora con Clojure.
 
-<br/>
+Ho iniziato il mio percorso studiando la programmazione in C e poi negli anni dell'università ho appreso la programmazione a oggetti utilizzando il Java.<br/>
+Mi piace studiare nuove tecnologie soprattutto legate al cloud e linguaggi di programmazione, sono appassionato di linguaggi funzionali come Scala, Erlang, Elixir e Clojure.
+I miei linguaggi preferiti sono Java, Go e Clojure (con cui mi diletto di tanto in tanto) , adoro GNU/Linux che è stato il mio sistema operativo primario per molti anni fino al passaggio a MacOS nel 2019 (Windows sucks).
 
 #### Certificazioni
 

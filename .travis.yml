@@ -1,9 +1,0 @@
-language: clojure
-dist: bionic
-before_deploy: ./scripts/prepare-deploy.sh
-deploy:
-  provider: pages
-  skip_clean: true
-  github_token: $GITHUB_TOKEN
-  keep_history: true
-  local_dir: ./public
