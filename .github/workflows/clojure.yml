@@ -15,9 +15,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Install dependencies
         run: lein deps
-      - name: Generate site
-        run: lein run
-      - name: Configure deploy
+      - name: Build
         run: sh ./scripts/prepare-deploy.sh
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
