@@ -1,3 +1,43 @@
 baseURL = 'https://fscotto.co/'
-languageCode = 'en-us'
 title = 'Fabio Scotto di Santolo'
+theme = 'risotto'
+languageCode = 'en-us'
+copyright = "© 2024 Fabio Scotto di Santolo"
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+enableEmoji = true
+enableRobotsTXT = true
+
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "dracula"
+
+# Sidebar: about/bio
+[params.about]
+title = "About me"
+description = "I'm a Fabio an italian software developer"
+logo_image = "images/avatar.jpg"
+
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/fscotto"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "Linkedln"
+url = "https://www.linkedin.com/in/fabio-scotto-di-santolo"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
