@@ -1,34 +1,19 @@
-# Created by https://www.toptal.com/developers/gitignore/api/clojure,code
-# Edit at https://www.toptal.com/developers/gitignore?templates=clojure,code
+# Created by https://www.toptal.com/developers/gitignore/api/hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo
 
-### Clojure ###
-pom.xml
-pom.xml.asc
-*.jar
-*.class
-/lib/
-/classes/
-/target/
-/checkouts/
-.lein-deps-sum
-.lein-repl-history
-.lein-plugins/
-.lein-failures
-.nrepl-port
-.cpcache/
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-### Code ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-.calva/
-.clj-kondo/
-.lsp/
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-### Project temporary files ###
-public/
+# Temporary lock file while building
+/.hugo_build.lock
 
-# End of https://www.toptal.com/developers/gitignore/api/clojure,code
+# End of https://www.toptal.com/developers/gitignore/api/hugo
