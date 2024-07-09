@@ -1,3 +1,3 @@
-# fscotto.github.io
+# Fabio Scotto di Santolo Showcase
 
-Il mio sito web
+I created this website as a personal showcase, using Hugo and the Risotto theme.
