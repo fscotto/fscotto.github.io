@@ -7,7 +7,7 @@ draft = false
 # Hi, I'm Fabio! 👋
 
 I am a software developer with almost ten years of experience.
-I work as a consultant developing backend with Quarkus Framework in partnership with **[Red Hat](https://www.redhat.com)**.
+I've worked as a consultant developing backend using Quarkus framework in partnership with **[Red Hat](https://www.redhat.com)**.
 I like to study new technologies especially related to cloud, operating systems and programming languages, I love GNU/Linux which is my primary operating system for work (Windows sucks).
 
 Besides programming I enjoy music and anime.
