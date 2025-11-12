@@ -16,12 +16,12 @@
 
 ## 💡 Technical Skills
 
-- **Languages**: Java, C, Go, Python, Shell scripting, Erlang/Elixir, Clojure  
+- **Languages**: Java, C, Go, Python, Shell scripting, Clojure, Emacs LISP  
 - **Backend & Cloud**: Spring Boot or Quarkus microservices, REST APIs, containerization, cloud-native best practices  
-- **Systems & DevOps**: Linux environments, dotfiles optimization, shell tooling (bash/fish/zsh), tmux, Neovim, Kitty  
+- **Systems & DevOps**: Linux environments, dotfiles optimization, tmux, Emacs  
 - **Tools & Configuration**: Docker, Maven, Git, CI/CD pipelines  
 - **Other**: EXIF metadata tools, NPM packages, OS-level experiments  
-- **Programming Paradigms**: Object-oriented, functional (Erlang/Elixir, Clojure), systems-level
+- **Programming Paradigms**: Object-oriented, functional (Emacs LISP, Clojure), systems-level
 
 ---
 
@@ -35,7 +35,6 @@ Pinned repositories include:
 
 - **`fscotto.github.io`** – Source code for your personal website  
 - **`dotfiles`** – Comprehensive configurations for shell tools and dev environment  
-- **`fedora-workstation`** – Scripts for provisioning Fedora environments  
 - **`collection`** – Go implementations of various data structures  
 - **`system-programming`** – C experiments in low-level OS concepts  
 - **`operating-systems`** – Exercises from *Operating Systems Concepts* by Silberschatz, Galvin & Gagne
@@ -51,7 +50,7 @@ Other notable projects:
 
 - **Operating Systems & Systems Programming** – deep-dive C projects  
 - **Cloud-native microservices** – leveraging Quarkus and modern Java frameworks  
-- **Functional Programming** – curious and passionate about FP principles, with working knowledge of **Erlang/Elixir** and **Clojure**  
+- **Functional Programming** – curious and passionate about FP principles, with working knowledge of **Emacs LISP** and **Clojure**  
 - **Dev environments** – dotfiles, shell optimizations, tooling integrations  
 - **Open-source contributions** – frequent GitHub activity, Arctic Code Vault Achiever  
 - **Personal passions** – music production, anime fandom, Linux advocacy
