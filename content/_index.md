@@ -1,13 +1,26 @@
 +++
 title = 'Homepage'
-date = 2024-06-17T13:03:05+02:00
+date = 2026-04-15T13:03:05+02:00
 draft = false
 +++
 
 # Hi, I'm Fabio! 👋
 
-I am a software developer with almost ten years of experience.
-I've worked as a consultant developing backend using Quarkus framework in partnership with **[Red Hat](https://www.redhat.com)**.
-I like to study new technologies especially related to cloud, operating systems and programming languages, I love GNU/Linux which is my primary operating system for work (Windows sucks).
+I am a software developer with **10+ years** of experience.
+I've worked with Java ecosystems, primarily with **Spring Boot** and **Quarkus**.
 
-Besides programming I enjoy music and anime.
+I focus on building robust, maintainable systems with clean code.
+Advocate for the UNIX philosophy: simple, composable tools.
+
+GNU/Linux is my primary development environment —
+
+[![No systemd](https://img.shields.io/badge/no-systemd-39970D?style=for-the-badge&logo=linux)](https://nosystemd.org/)
+
+I believe in software that respects the user's freedom: stability, transparency, and control over your own system.
+
+Besides programming, I enjoy:
+
+- System programming in C
+- Open source & Linux
+- Rock & Metal music 🎸
+- Anime 🎬
