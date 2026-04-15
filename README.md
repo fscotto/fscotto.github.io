@@ -1,63 +1,47 @@
-# 👋 Hi, I’m Fabio Scotto di Santolo
+# Fabio Scotto di Santolo
 
-**Software Developer & Consultant** with nearly ten years of hands-on experience in backend systems, cloud technologies and Linux environments.
-
----
-
-## 🏢 Professional Experience
-
-### **Tecnolife – The Innovation Factory** *(Rome, Italy)*  
-**Role**: Software Engineer / Consultant  
-- Collaborated on backend development projects, leveraging technologies such as **Spring Boot**.  
-- Designed and delivered RESTful APIs and microservices.  
-- Advocate for **GNU/Linux** as a primary development environment.
+> Backend Developer with 10+ years of experience in Java ecosystems and cloud-native technologies.
 
 ---
 
-## 💡 Technical Skills
+## About
 
-- **Languages**: Java, Shell scripting, C, Go, Python, Emacs Lisp
-- **Backend & Cloud**: Spring Boot or Quarkus microservices, REST APIs, containerization, cloud-native best practices  
-- **Systems & DevOps**: Linux environments, dotfiles optimization  
-- **Tools & Configuration**: Tmux, Emacs, Docker, Maven, Git, CI/CD pipelines 
-- **Other**: EXIF metadata tools, NPM packages, OS-level experiments  
-- **Programming Paradigms**: Object Oriented, Functional (Emacs Lisp), Procedural
+Software developer focused on building **robust**, **maintainable**, and **elegant** backend systems. Advocate for clean code, thoughtful design, and software that respects the UNIX philosophy: do one thing well.
 
 ---
 
-## 🚀 Featured Side Projects
+## Tech Stack
 
-### [**Personal Website & Blog**](https://fscotto.co)  
-Built with **Hugo** & risotto—showcases your experience, interests (music, anime), and open-source work.
-
-### **GitHub Highlights** ([fscotto](https://github.com/fscotto))  
-Pinned repositories include:
-
-- **`fscotto.github.io`** – Source code for your personal website  
-- **`dotfiles`** – Comprehensive configurations for shell tools and dev environment  
-- **`collection`** – Go implementations of various data structures  
-- **`system-programming`** – C experiments in low-level OS concepts  
-- **`operating-systems`** – Exercises from *Operating Systems Concepts* by Silberschatz, Galvin & Gagne
+- **Languages**: Java, Go, C, Python, Shell
+- **Frameworks**: Spring Boot, Quarkus
+- **Systems**: Linux, Docker, Kubernetes
 
 ---
 
-## 🎯 Interests & Technologies
+## What I Value
 
-- **Operating Systems & Systems Programming** – deep-dive C projects  
-- **Cloud-native microservices** – leveraging Go or Quarkus and modern Java frameworks    
-- **Functional Programming** – curious and passionate about FP principles, with working knowledge of **Emacs LISP** and **Clojure**  
-- **Dev environments** – dotfiles, shell optimizations, tooling integrations  
-- **Open-source contributions** – frequent GitHub activity, Arctic Code Vault Achiever  
-- **Personal passions** – music production, anime fandom, Linux advocacy
+> One of my most productive days was throwing away 1000 lines of code. — Ken Thompson
 
----
-
-## 📬 Let’s Connect!
-
-- **Website**: [fscotto.co](https://fscotto.co)  
-- **GitHub**: [github.com/fscotto](https://github.com/fscotto)  
-- **LinkedIn**: [linkedin.com/in/fabio-scotto-di-santolo](https://www.linkedin.com/in/fabio-scotto-di-santolo)
+- **Craftsmanship**: Clean code, meaningful names, small functions
+- **Simplicity**: Prefer explicit over magical
+- **UNIX Philosophy**: Small, composable tools
+- **Functional Programming**: Immutability, pure functions, composition
+- **Testing**: If it's not tested, it's broken
 
 ---
 
-*This presentation highlights my strengths as a backend/cloud developer, functional programming enthusiast, and open-source contributor. Happy to explore new challenges or collaborations!*
+## Interests
+
+- Open source & Linux advocacy
+- System programming in C
+- UNIX philosophy
+- Rock & Metal music
+- Anime
+
+---
+
+## Connect
+
+- [fscotto.co](https://fscotto.co)
+- [GitHub](https://github.com/fscotto)
+- [LinkedIn](https://www.linkedin.com/in/fabio-scotto-di-santolo)
