@@ -1,43 +1,38 @@
 baseURL = 'https://fscotto.co/'
 title = 'Fabio Scotto di Santolo'
-theme = 'risotto'
 languageCode = 'en-us'
-copyright = "© 2024 Fabio Scotto di Santolo"
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
+copyright = '© 2024 Fabio Scotto di Santolo'
+canonifyURLs = true
 enableEmoji = true
 enableRobotsTXT = true
 
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.116.0'
+  [[module.imports]]
+    path = 'github.com/elecbrandy/freshpink'
 
 [params]
-noindex = false
-
-[params.theme]
-palette = "dracula"
-
-# Sidebar: about/bio
-[params.about]
-title = "About me"
-description = "I'm a Fabio an italian software developer"
-logo_image = "images/avatar.jpg"
-
-# Sidebar: social links
-# Available icon sets:
-# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
-# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
-
-[[params.socialLinks]]
-icon = "fa-brands fa-github"
-title = "GitHub"
-url = "https://github.com/fscotto"
-
-[[params.socialLinks]]
-icon = "fa-brands fa-linkedin"
-title = "Linkedln"
-url = "https://www.linkedin.com/in/fabio-scotto-di-santolo"
+description = 'Personal showcase for Fabio Scotto di Santolo'
+primaryColor = '#fa8b84'
+math = false
+githubUsername = 'fscotto'
+showGithubChart = true
+showMainImage = false
+copyright = 'Copyright © 2024 Fabio Scotto di Santolo'
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+tag = 'tags'
+category = 'categories'
+series = 'series'
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
