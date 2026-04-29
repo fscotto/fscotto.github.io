@@ -1,7 +1,7 @@
 baseURL = 'https://fscotto.co/'
 title = 'Fabio Scotto di Santolo'
 languageCode = 'en-us'
-copyright = '© 2024 Fabio Scotto di Santolo'
+copyright = '© 2026 Fabio Scotto di Santolo'
 canonifyURLs = true
 enableEmoji = true
 enableRobotsTXT = true
@@ -26,7 +26,7 @@ math = false
 githubUsername = 'fscotto'
 showGithubChart = true
 showMainImage = false
-copyright = 'Copyright © 2024 Fabio Scotto di Santolo'
+copyright = 'Copyright © 2026 Fabio Scotto di Santolo'
 
 [taxonomies]
 tag = 'tags'
